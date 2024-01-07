@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+</head>
+<body>
+    <header>
+        <img class="logo__loja" src="./img/logo.jpg" alt="logo loja">
+
+        <input class="combo__pesquisa" type="text" placeholder="Pesquise pelo seu produto.">
+
+        <div class="card__pagamento">
+            <img class="logo__pix" src="./img/logoPix.png" alt="logo pix">
+            <p><strong>PIX: </strong>016.196.220-33</p>
+        </div>
+    </header>
+    <main>
+        <div class="area__principal">
+            <div class="filtros_top">
+                <div class="filtros">
+                    <h2>filtros</h2>
+                    <p>Em breve</p>
+                </div>
+                <div class="top">
+                    <h2>Maiores compradores</h2>
+                    <div class="top__usuario">
+                        <img src="./img/juliano.jpeg" alt="imagem">
+                        <div class="usuario__info">
+                            <h3>Juliano</h3>
+                            <progress  style="height: 26px; width: 160px" id="progress" min="0" step="55" max="500" value="55">55</progress>
+                        </div>
+                    </div>
+                    <div class="top__usuario">
+                        <img src="./img/candida.jpeg" alt="imagem">
+                        <div class="usuario__info">
+                            <h3>Cândida</h3>
+                            <progress  style="height: 26px; width: 160px" id="progress" min="0" step="35" max="500" value="35">35</progress>
+                        </div>
+                    </div>
+                    <div class="top__usuario">
+                        <img src="./img/kelly.jpeg" alt="imagem">
+                        <div class="usuario__info">
+                            <h3>Kelly</h3>
+                            <progress  style="height: 26px; width: 160px" id="progress" min="0" step="35" max="500" value="35">35</progress>
+                        </div>
+                    </div>
+                    <div class="top__usuario">
+                        <img src="./img/carlinhos.jpeg" alt="imagem">
+                        <div class="usuario__info">
+                            <h3>Carlinhos</h3>
+                            <progress  style="height: 26px; width: 160px" id="progress" min="0" step="0" max="500" value="0">0</progress>
+                        </div>
+                    </div>
+                    <div class="top__usuario">
+                        <img src="./img/candice.jpeg" alt="imagem">
+                        <div class="usuario__info">
+                            <h3>Candice</h3>
+                            <progress  style="height: 26px; width: 160px" id="progress" min="0" step="0" max="500" value="0">0</progress>
+                        </div>
+                    </div>
+                </div>
+                <div class="meta">
+                    <h2>Meta</h2>
+                    <div class="fogao__imagem">
+                        <img src="./img/fogao.jpeg" alt="foto do fogão">
+                    </div>
+                    <progress  style="height: 26px; width: 160px" id="progress" min="0" step="35" max="1400" value="35">35</progress>
+                </div>
+            </div>
+            <div class="garrafas">
+                <div class="card__garrafa">
+                    <div class="garrafa__imagem">
+                        <img src="./img/casaSilva.webp">
+                    </div>
+                    <h1>Casa Silva</h1>
+                    <div class="garrafas_tags">
+                        <p class="tinto">Tinto</p>
+                        <p class="cabert_sauvignon">Cabernet Sauvignon</p>
+                    </div>
+                    <h2><strong>R$ 55</strong></h2>
+                </div>
+                <div class="card__garrafa">
+                    <div class="garrafa__imagem">
+                        <img src="./img/casillero_cabernet_s.webp">
+                    </div>
+                    <h1>Casillero Del Diablo</h1>
+                    <div class="garrafas_tags">
+                        <p class="tinto">Tinto</p>
+                        <p class="cabert_sauvignon">Cabernet Sauvignon</p>
+                    </div>
+                    <h2><strong>R$ 65</strong></h2>
+                </div>
+                <div class="card__garrafa">
+                    <div class="garrafa__imagem">
+                        <img src="./img/garibaldiVeroBrut.jpeg">
+                    </div>
+                    <h1>Garibaldi</h1>
+                    <div class="garrafas_tags">
+                        <p class="brut">Brut</p>
+                    </div>
+                    <h2><strong>R$ 35</strong></h2>
+                </div>
+                <div class="card__garrafa">
+                    <div class="garrafa__imagem">
+                        <img src="./img/granjaUniaoCabernet.jpeg">
+                    </div>
+                    <h1>Granja União</h1>
+                    <div class="garrafas_tags">
+                        <p class="tinto">Tinto</p>
+                        <p class="cabert_sauvignon">Cabernet Sauvignon</p>
+                    </div>
+                    <h2><strong>R$ 35</strong></h2>
+                </div>
+                <div class="card__garrafa">
+                    <div class="garrafa__imagem">
+                        <img src="./img/reservadoCabernetSauvignon.jpeg">
+                    </div>
+                    <h1>Reservado</h1>
+                    <div class="garrafas_tags">
+                        <p class="tinto">Tinto</p>
+                        <p class="cabert_sauvignon">Cabernet Sauvignon</p>
+                    </div>
+                    <h2><strong>R$ 45</strong></h2>
+                </div>
+                <div class="card__garrafa">
+                    <div class="garrafa__imagem">
+                        <img src="./img/tierruca_blanc.webp">
+                    </div>
+                    <h1>Tierruca</h1>
+                    <div class="garrafas_tags">
+                        <p class="branco">Branco</p>
+                        <p class="sauvignon_blanc">Sauvignon Blanc</p>
+                    </div>
+                    <h2><strong>R$ 40</strong></h2>
+                </div>
+                <div class="card__garrafa">
+                    <div class="garrafa__imagem">
+                        <img src="./img/tirerrucaMerlot.jpeg">
+                    </div>
+                    <h1>Tierruca</h1>
+                    <div class="garrafas_tags">
+                        <p class="tinto">Tinto</p>
+                        <p class="merlot">Merlot</p>
+                    </div>
+                    <h2><strong>R$ 50</strong></h2>
+                </div>
+                <div class="card__garrafa">
+                    <div class="garrafa__imagem">
+                        <img src="./img/trapiche_cabernet_s.jpeg">
+                    </div>
+                    <h1>Trapiche</h1>
+                    <div class="garrafas_tags">
+                        <p class="tinto">Tinto</p>
+                        <p class="cabert_sauvignon">Cabernet Sauvignon</p>
+                    </div>
+                    <h2><strong>R$ 60</strong></h2>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
