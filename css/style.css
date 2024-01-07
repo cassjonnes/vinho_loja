@@ -255,9 +255,26 @@ progress {
     padding: 20px auto;
 }
 
+.garrafas{
+    justify-content: center;
+}
+
 .card__garrafa{
-    max-width: 230px;
-    margin: 8px;
+    max-width: 140px;
+    margin: 5px;
+}
+
+.garrafa__imagem img{
+    max-height: 140px;
+}
+
+.card__garrafa h1{
+    padding: 2px;
+}
+
+.garrafa__imagem {
+    
+    height: auto;
 }
 
 }
