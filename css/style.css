@@ -255,4 +255,9 @@ progress {
     padding: 20px auto;
 }
 
+.card__garrafa{
+    max-width: 230px;
+    margin: 8px;
+}
+
 }
