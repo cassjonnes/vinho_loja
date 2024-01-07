@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: 95%;
     padding: 10px;
     background-color: #ffffff;
 }
@@ -37,11 +37,12 @@ header{
 
 .logo__pix{
     width: 35px;
+    margin-right: 10px;
 }
 
 /* MAIN */
 main{
-    width: 100vw;
+    width: 100%;
     background-color: #e0e0e0;
 }
 
