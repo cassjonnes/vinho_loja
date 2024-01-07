@@ -126,8 +126,8 @@ progress {
     border-radius: 5px;
     box-shadow: 3px 3px 3px #C0C0C0;
     padding: 3px;
-    width: 150px;
-    height: 20px;
+    width: 80%;
+    height: 30px;
     }
 
 /* META */
@@ -228,4 +228,31 @@ progress {
 
 .merlot{
     background-color: #22278f;
+}
+
+/* MEDIA QUERY MOBILE */
+@media only screen and (max-width: 700px){
+
+.area__principal{
+    display: block;
+}
+
+
+.combo__pesquisa, .meta{
+    display: none;
+}
+
+/* TOP */
+
+.top{
+    padding: 15px;
+    text-align: left;
+}
+
+.usuario__info{
+    width: 100%;
+    margin: 5px;
+    padding: 20px auto;
+}
+
 }
