@@ -82,8 +82,11 @@ main{
 .filtros h2{
     font-size: large;
     font-weight: bold;
-    text-decoration: underline;
     padding: 5px;
+    background-color: #e0e0e0;
+    color: #000000;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 
@@ -97,8 +100,10 @@ main{
 .top h2{
     font-size: large;
     font-weight: bold;
-    text-decoration: underline;
     padding: 5px;
+    background-color: #e0e0e0;
+    color: #000000;
+    border-radius: 10px;
 }
 
 .top__usuario{
@@ -140,8 +145,10 @@ progress {
 .meta h2{
     font-size: large;
     font-weight: bold;
-    text-decoration: underline;
     padding: 5px;
+    background-color: #e0e0e0;
+    color: #000000;
+    border-radius: 10px;
 }
 
 .fogao__imagem{
