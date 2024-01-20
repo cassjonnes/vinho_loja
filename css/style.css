@@ -79,6 +79,7 @@ main{
 .filtros{
     padding: 15px;
     text-align: center;
+    display: none;
 }
 
 .filtros h2{
