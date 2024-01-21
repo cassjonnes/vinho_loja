@@ -201,7 +201,12 @@ progress {
     font-size: 12px;
 }
 
-.tinto,.merlot,.unidade, .cerveja, .cabert_sauvignon, .brut, .branco, .sauvignon_blanc{
+.tinto,.merlot,.unidade, 
+.cerveja, 
+.cabert_sauvignon, 
+.brut, 
+.branco, 
+.sauvignon_blanc{
     font-weight: bold;
     color: #fff;
     padding: 5px;
@@ -257,7 +262,8 @@ progress {
 }
 
 
-.combo__pesquisa, .meta{
+.combo__pesquisa, 
+.meta{
     display: none;
 }
 
