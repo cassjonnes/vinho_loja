@@ -23,7 +23,7 @@ function montaCard (){
     garrafaImagem.classList.add(`${garrafa__imagem}`);
     novoCard.appendChild(garrafaImagem);
 
-    let nomeGarrafa 
+    let nomeGarrafa = 
 
 }
 
@@ -39,4 +39,4 @@ function montaCard (){
     </div>
     <h2><strong>R$ 35</strong></h2>
     <p class="unidade">9 unidades</p>
-</div> */}
+</div>  */}
