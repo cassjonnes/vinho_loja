@@ -55,7 +55,7 @@ let itens = [{
 {
     classe: 'espumante',
     titulo: 'Garibaldi',
-    tipo: 'brut',
+    tipo: 'Brut',
     uva: '',
     preco: 35,
     unidades: 8,
@@ -64,7 +64,7 @@ let itens = [{
 {
     classe: 'cerveja',
     titulo: 'Pack de Heineken',
-    tipo: 'cerveja',
+    tipo: 'Cerveja',
     uva: '',
     preco: 50,
     unidades: 2,
@@ -113,9 +113,9 @@ function montaCard (i, classe, titulo, tipo, uva, preco, unidades, imagem){
         tag.classList.add('tinto');
     } else if (tipo === "Branco"){
         tag.classList.add('sauvignon_blanc');
-    } else if (tipo === "brut"){
+    } else if (tipo === "Brut"){
         tag.classList.add('brut');
-    }else if (tipo === "cerveja"){
+    }else if (tipo === "Cerveja"){
         tag.classList.add('cerveja');
     }
     let textoTagGarrafa = document.createTextNode(`${tipo}`);
