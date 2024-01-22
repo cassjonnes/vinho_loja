@@ -23,7 +23,7 @@ function montaCard (){
     garrafaImagem.classList.add(`${garrafa__imagem}`);
     novoCard.appendChild(garrafaImagem);
 
-    let nomeGarrafa = 
+    //let nomeGarrafa = 
 
 }
 
