@@ -4,14 +4,14 @@ let arrayObjetos = [{
     valorGasto: 140
 },
 {
+    nome: 'Cândida',
+    avatar: './img/candida.jpeg',
+    valorGasto: 125
+},
+{
     nome: 'Candice',
     avatar: './img/candice.jpeg',
     valorGasto: 100
-},
-{
-    nome: 'Cândida',
-    avatar: './img/candida.jpeg',
-    valorGasto: 70
 },
 {
     nome: 'Camille',

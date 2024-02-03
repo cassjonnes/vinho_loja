@@ -78,7 +78,7 @@ const dados = {
             "tipo": "Cerveja",
             "uva": "",
             "preco": 55,
-            "unidades": 4,
+            "unidades": 3,
             "imagem": "./img/pack_corona.webp"
         }
     ]
