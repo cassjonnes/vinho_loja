@@ -12,7 +12,7 @@ header{
     /* justify-content: space-around; */
     justify-content: left;
     align-items: center;
-    width: 95%;
+    width: 100%;
     padding: 10px;
     background-color: #ffffff;
 }
@@ -61,7 +61,7 @@ header{
 /* MAIN */
 main{
     width: 100%;
-    background-color: #e0e0e0;
+    background-color: #abf5ff;
 }
 
 .area__principal{
@@ -85,7 +85,7 @@ main{
 .garrafas{
     grid-column: 2/3;
     grid-row: 1/3;
-    background-color: #e0e0e0;
+    background-color: #abf5ff4e;
     display: flex;
     flex-wrap: wrap;
 }
@@ -183,6 +183,7 @@ progress {
 /* CARD GARRAFA */
 .card__garrafa{
     width: 250px;
+    max-height: 404px;
     text-align: center;
     padding: 15px;
     background-color: #ffffff;
@@ -277,7 +278,7 @@ progress {
     padding: 5px;
     margin-top: 5px;
     color: #ffffff;
-    background-color: #7cc6ffd7;
+    background-color: #007ad9;
     border-radius: 5px;
 }
 
@@ -287,7 +288,7 @@ progress {
 }
 
 .botao_adicionar:active{
-    background-color: #00ff66c5;
+    background-color: #177d40c5;
     cursor: pointer;
 }
 
