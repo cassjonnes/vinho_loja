@@ -254,6 +254,27 @@ progress {
         color: #000000;
 }
 
+/* BOTAO ADICIONAR DO CARD */
+
+.botao_adicionar{
+    width: 98%;
+    padding: 5px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: #7cc6ffd7;
+    border-radius: 5px;
+}
+
+.botao_adicionar:hover{
+    background-color: #1f9effcf;
+    cursor: pointer;
+}
+
+.botao_adicionar:active{
+    background-color: #00ff66c5;
+    cursor: pointer;
+}
+
 /* MEDIA QUERY MOBILE */
 @media only screen and (max-width: 700px){
 

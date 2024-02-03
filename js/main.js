@@ -69,7 +69,19 @@ let itens = [{
     preco: 50,
     unidades: 2,
     imagem: './img/pack_heineken.webp'
+},
+{
+    classe: 'cerveja',
+    titulo: 'Pack de Corona',
+    tipo: 'Cerveja',
+    uva: '',
+    preco: 55,
+    unidades: 4,
+    imagem: './img/pack_corona.webp'
 }];
+
+
+
 
 for(let i = 0; i < itens.length; i++){
 
@@ -142,4 +154,10 @@ function montaCard (i, classe, titulo, tipo, uva, preco, unidades, imagem){
     unidade.classList.add('unidade')
     unidade.appendChild(textoUnidadeGarrafa);
     novoCard.appendChild(unidade);
+
+    let botaoAdicionar = document.createElement("button");
+    botaoAdicionar.classList.add('botao_adicionar')
+    let textoBotao = document.createTextNode('Adicionar');
+    botaoAdicionar.appendChild(textoBotao);
+    novoCard.appendChild(botaoAdicionar);
     };
