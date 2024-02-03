@@ -1,99 +1,101 @@
-let itens = [{
-    classe: 'vinho',
-    titulo: 'Casa Silva',
-    tipo: 'Tinto',
-    uva: 'Cabernet Sauvignon',
-    preco: 55,
-    unidades: 6,
-    imagem: './img/casaSilva.webp'
-},
-{
-    classe: 'vinho',
-    titulo: 'Casillero Del Diablo',
-    tipo: 'Tinto',
-    uva: 'Cabernet Sauvignon',
-    preco: 65,
-    unidades: 4,
-    imagem: './img/casillero_cabernet_s.webp'
-},
-{
-    classe: 'vinho',
-    titulo: 'Granja União',
-    tipo: 'Tinto',
-    uva: 'Cabernet Sauvignon',
-    preco: 35,
-    unidades: 2,
-    imagem: './img/granjaUniaoCabernet.jpeg'
-},
-{
-    classe: 'vinho',
-    titulo: 'Reservado',
-    tipo: 'Tinto',
-    uva: 'Cabernet Sauvignon',
-    preco: 45,
-    unidades: 4,
-    imagem: './img/reservadoCabernetSauvignon.jpeg'
-},
-{
-    classe: 'vinho',
-    titulo: 'Trapiche',
-    tipo: 'Tinto',
-    uva: 'Cabernet Sauvignon',
-    preco: 60,
-    unidades: 3,
-    imagem: './img/trapiche_cabernet_s.jpeg'
-},
-{
-    classe: 'vinho',
-    titulo: 'Tierruca',
-    tipo: 'Branco',
-    uva: 'Sauvignon Blanc',
-    preco: 40,
-    unidades: 3,
-    imagem: './img/tierruca_blanc.webp'
-},
-{
-    classe: 'espumante',
-    titulo: 'Garibaldi',
-    tipo: 'Brut',
-    uva: '',
-    preco: 35,
-    unidades: 8,
-    imagem: './img/garibaldiVeroBrut.jpeg'
-},
-{
-    classe: 'cerveja',
-    titulo: 'Pack de Heineken',
-    tipo: 'Cerveja',
-    uva: '',
-    preco: 50,
-    unidades: 2,
-    imagem: './img/pack_heineken.webp'
-},
-{
-    classe: 'cerveja',
-    titulo: 'Pack de Corona',
-    tipo: 'Cerveja',
-    uva: '',
-    preco: 55,
-    unidades: 4,
-    imagem: './img/pack_corona.webp'
-}];
+const dados = {
+    "itens" : [
+        {
+            "classe": "vinho",
+            "titulo": "Casa Silva",
+            "tipo": "Tinto",
+            "uva": "Cabernet Sauvignon",
+            "preco": 55,
+            "unidades": 6,
+            "imagem": "./img/casaSilva.webp"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Casillero Del Diablo",
+            "tipo": "Tinto",
+            "uva": "Cabernet Sauvignon",
+            "preco": 65,
+            "unidades": 4,
+            "imagem": "./img/casillero_cabernet_s.webp"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Granja União",
+            "tipo": "Tinto",
+            "uva": "Cabernet Sauvignon",
+            "preco": 35,
+            "unidades": 2,
+            "imagem": "./img/granjaUniaoCabernet.jpeg"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Reservado",
+            "tipo": "Tinto",
+            "uva": "Cabernet Sauvignon",
+            "preco": 45,
+            "unidades": 4,
+            "imagem": "./img/reservadoCabernetSauvignon.jpeg"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Trapiche",
+            "tipo": "Tinto",
+            "uva": "Cabernet Sauvignon",
+            "preco": 60,
+            "unidades": 3,
+            "imagem": "./img/trapiche_cabernet_s.jpeg"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Tierruca",
+            "tipo": "Branco",
+            "uva": "Sauvignon Blanc",
+            "preco": 40,
+            "unidades": 3,
+            "imagem": "./img/tierruca_blanc.webp"
+        },
+        {
+            "classe": "espumante",
+            "titulo": "Garibaldi",
+            "tipo": "Brut",
+            "uva": "",
+            "preco": 35,
+            "unidades": 8,
+            "imagem": "./img/garibaldiVeroBrut.jpeg"
+        },
+        {
+            "classe": "cerveja",
+            "titulo": "Pack de Heineken",
+            "tipo": "Cerveja",
+            "uva": "",
+            "preco": 50,
+            "unidades": 2,
+            "imagem": "./img/pack_heineken.webp"
+        },
+        {
+            "classe": "cerveja",
+            "titulo": "Pack de Corona",
+            "tipo": "Cerveja",
+            "uva": "",
+            "preco": 55,
+            "unidades": 4,
+            "imagem": "./img/pack_corona.webp"
+        }
+    ]
+    }
 
 
-
-
-for(let i = 0; i < itens.length; i++){
+for(let i = 0; i < dados.itens.length; i++){
 
     montaCard(
         i, 
-        itens[i].classe, 
-        itens[i].titulo, 
-        itens[i].tipo, 
-        itens[i].uva, 
-        itens[i].preco, 
-        itens[i].unidades, 
-        itens[i].imagem);
+        dados.itens[i].classe, 
+        dados.itens[i].titulo, 
+        dados.itens[i].tipo, 
+        dados.itens[i].uva, 
+        dados.itens[i].preco, 
+        dados.itens[i].unidades, 
+        dados.itens[i].imagem);
 };
 
 function montaCard (i, classe, titulo, tipo, uva, preco, unidades, imagem){

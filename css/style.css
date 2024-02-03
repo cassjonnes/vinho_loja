@@ -42,6 +42,22 @@ header{
     margin-right: 10px;
 }
 
+.carrinho{
+    display: flex;
+    margin-left: 50px;
+    justify-content: left;
+    align-items: center;
+}
+
+.pagar{
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #007ad9;
+    color: white;
+    font-weight: bold;
+}
+
 /* MAIN */
 main{
     width: 100%;
