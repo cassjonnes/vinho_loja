@@ -182,7 +182,7 @@ progress {
 
 /* CARD GARRAFA */
 .card__garrafa{
-    width: 250px;
+    width: 200px;
     max-height: 404px;
     text-align: center;
     padding: 15px;
@@ -193,13 +193,13 @@ progress {
 }
 
 .garrafa__imagem{
-    width: 90%;
+    width: 100%;
     height: 220px;
     margin: auto;
 }
 
 .garrafa__imagem img{
-    max-height: 220px;
+    max-height: 200px;
 }
 
 .card__garrafa h1{
