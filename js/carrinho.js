@@ -1,16 +1,20 @@
-// Obtendo uma NodeList de todos os botões com a classe "botao_adicionar"
-const botoes = document.querySelectorAll('.botao_adicionar');
+// Obtendo uma referência para o contêiner estático que envolve os botões
+const containerBotoes = document.getElementById('garrafas');
 
-// Adicionando um ouvinte de evento para o clique em cada botão
-botoes.forEach(botao => {
-    botao.addEventListener('click', adicionarAoCarrinho);
-});
-
+// Adicionando um ouvinte de evento ao contêiner
+containerBotoes.addEventListener('click', function(event) {
+    // Verificando se o clique ocorreu em um botão
+    if (event.target.classList.contains('botao_adicionar')) {
+      adicionarAoCarrinho(event); // Passando o objeto event como argumento
+      console.log("Cliquei");
+    }
+    // Adicione outras verificações de classe se houver mais tipos de botões
+  });
 
 function adicionarAoCarrinho(event) {
     console.log("adicionarAoCarrinho")
     // Obtendo o botão clicado
-    const botaoClicado = event.target;
+    let botaoClicado = event.target;
   
     // Obtendo o elemento pai (a div com a classe "card__garrafa")
     const cardGarrafa = botaoClicado.closest('.card__garrafa');
