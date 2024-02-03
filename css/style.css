@@ -295,12 +295,28 @@ progress {
 /* MEDIA QUERY MOBILE */
 @media only screen and (max-width: 700px){
 
+header{
+    display: inline;
+    width: 100%;
+}
+
+/* LOGO LOJA */
+.logo__loja{
+    width: 50px;
+    margin: 0 auto;
+}
+
+.combo__pesquisa{
+    width: 90%;
+    margin: 10px;
+}
+
 .area__principal{
     display: block;
 }
 
 
-.combo__pesquisa, 
+/* .combo__pesquisa,  */
 .meta{
     display: none;
 }
