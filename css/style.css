@@ -90,6 +90,7 @@ main{
     background-color: #eff7f6;
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 /* FILTROS */
