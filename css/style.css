@@ -1,8 +1,9 @@
 /* BODY */
 body{
-    font-family: 'Lobster', sans-serif;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lobster', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace; */
 }
 
 /* HEADER */
@@ -152,8 +153,28 @@ progress {
     box-shadow: 3px 3px 3px #C0C0C0;
     padding: 3px;
     width: 80%;
-    height: 30px;
+
     }
+
+    .container { 
+        background-color: rgb(192, 192, 192); 
+        width: 100%; 
+        border-radius: 15px; 
+    } 
+
+    .skill { 
+        background-color: #007ad9; 
+        color: white; 
+        padding: 2px; 
+        text-align: right; 
+        font-size: 10px; 
+        border-radius: 15px;
+    } 
+
+    .valorBarraProgresso { 
+        width: 80%; 
+        
+    } 
 
 /* META */
 
@@ -238,9 +259,13 @@ progress {
     padding: 10px;
 }
 
+.garrafa_preco{
+    color: rgb(200, 26, 121);
+}
+
 /* TAGS */
 .tinto{
-    background-color: #722f37;
+    background-color: #b13a48;
 }
 
 .cerveja{
@@ -248,7 +273,7 @@ progress {
 }
 
 .cabert_sauvignon{
-    background-color: #694c7b;
+    background-color: #8e37c4;
 }
 
 .brut{
@@ -279,17 +304,17 @@ progress {
     padding: 5px;
     margin-top: 5px;
     color: #ffffff;
-    background-color: rgb(224, 187, 0);
+    background-color: rgb(200, 26, 121);
     border-radius: 5px;
 }
 
 .botao_adicionar:hover{
-    background-color:  rgb(255, 213, 0);
+    background-color:  rgba(200, 26, 122, 0.742);
     cursor: pointer;
 }
 
 .botao_adicionar:active{
-    background-color: green;
+    background-color: #007ad9;
     cursor: pointer;
 }
 

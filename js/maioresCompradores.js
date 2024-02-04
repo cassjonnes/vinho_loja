@@ -4,7 +4,7 @@ let arrayObjetos = [{
     valorGasto: 140
 },
 {
-    nome: 'Cândida',
+    nome: 'Candida',
     avatar: './img/candida.jpeg',
     valorGasto: 125
 },
@@ -44,29 +44,54 @@ for(i = 0; i < arrayObjetos.length; i++){
 }
 
 function montaRanking(i,nome, avatar, valorGasto) {
-
+    //container
     let areaTop = document.getElementById('top');
 
+    //cria div usuario
     let novoCard = document.createElement("div");
     novoCard.classList.add('top__usuario');
     areaTop.appendChild(novoCard);
 
+    //insere imagem usuario
     let usuarioAvatar = document.createElement("img");
     usuarioAvatar.src = avatar;
     novoCard.appendChild(usuarioAvatar);
 
+    //insere div do nome e barra de progresso
     let usuarioDados = document.createElement("div");
     usuarioDados.classList.add('usuario__info');
     novoCard.appendChild(usuarioDados);
 
+    //insere nome usuário
     let nomeUsuario = document.createElement("h3");
     let nomeUsuarioTexto = document.createTextNode(`${nome}`);
     nomeUsuario.appendChild(nomeUsuarioTexto);
     usuarioDados.appendChild(nomeUsuario);
 
-    let barraProgresso = document.createElement("progress");
-    barraProgresso.min = 0;
-    barraProgresso.max = 1400;
-    barraProgresso.value = valorGasto;
+    //define percentual da barra
+    let percent = parseInt((valorGasto * 100) / 1400);
+
+    //define nome da classe
+    let classeUsuario = (`${nome}_barraProgresso`).toLowerCase();
+
+    //cria barra progresso limite
+    let barraProgresso = document.createElement("div");
+    barraProgresso.classList.add('container');
     usuarioDados.appendChild(barraProgresso);
+
+    //cria barra progresso atual
+    let barraProgressoValor = document.createElement("div");
+    let barraProgressoValorTexto = document.createTextNode(`R$${valorGasto}`);
+    barraProgressoValor.appendChild(barraProgressoValorTexto);
+    barraProgressoValor.classList.add('skill');
+    barraProgressoValor.classList.add(classeUsuario);
+    barraProgresso.appendChild(barraProgressoValor);
+
+    let classeUsuarioAtual = document.querySelector(`.${classeUsuario}`);
+
+    if (classeUsuarioAtual) {
+        classeUsuarioAtual.style.width = `${percent}%`;
+    } else {
+        console.error(`Nenhum elemento com a classe ${classeUsuario} encontrado.`);
+    }
 }

@@ -149,6 +149,7 @@ function montaCard (i, classe, titulo, tipo, uva, preco, unidades, imagem){
     let precoGarrafa = document.createElement("h2");
     let textoPrecoGarrafa = document.createTextNode(`R$ ${preco}`);
     precoGarrafa.appendChild(textoPrecoGarrafa);
+    precoGarrafa.classList.add('garrafa_preco');
     novoCard.appendChild(precoGarrafa);
 
     let unidade = document.createElement("p");
