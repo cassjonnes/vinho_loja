@@ -27,6 +27,11 @@ let users = [{
     nome: 'Kelly',
     avatar: './img/kelly.jpeg',
     valorGasto: 35
+},
+{
+    nome: 'Lucas',
+    avatar: './img/lucas.png',
+    valorGasto: 0
 }]
 
 let meta = {
