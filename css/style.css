@@ -331,8 +331,18 @@ header{
 
 
 /* .combo__pesquisa,  */
+.carrinho{
+    width: 10%;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+
 .pagar{
-    display: none;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
 }
 
 /* TOP */
