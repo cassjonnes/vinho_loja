@@ -1,0 +1,61 @@
+/* BODY */
+body{
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lobster', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace; */
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+/* LOGO LOJA */
+.logo__loja{
+    width: 50px;
+    margin: 0 15%;
+}
+
+.nav{
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #007ad9;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* TABELA */
+
+.vendas{
+    margin: 1% 10%;
+}
+
+.linha{
+    display: flex;
+    margin: auto;
+    height: 50px;
+    padding: 2px;
+}
+
+.item{
+    width: 200px;
+    padding: 10px;
+    border-bottom: solid 1px rgb(173, 173, 173);
+}
+
+.img{
+    width: 40px;
+    border-radius: 90px;
+    max-height: 40px;
+}
