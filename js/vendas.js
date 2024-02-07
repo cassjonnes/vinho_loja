@@ -140,7 +140,6 @@ let listaOrdenada = resultado.sort(function(b, a) {
   function suaFuncao() {
     // Se a largura da tela for maior que 700 pixels
     if (window.innerWidth > 700) {
-        montaCabecalhoRegistroVendas();
         for(let i = 0; i < listaOrdenada.length; i++){
             montaRegistrosVendas(
                 listaOrdenada[i].avatar,
@@ -186,51 +185,6 @@ let listaOrdenada = resultado.sort(function(b, a) {
     resultadosContainer.innerHTML = '';
     suaFuncao();
   };
-
-
-function montaCabecalhoRegistroVendas(){
-    const areaVendas = document.querySelector('.vendas');
-
-    let novaLinha = document.createElement("div");
-    novaLinha.classList.add('linha');
-    novaLinha.classList.add('cabecalho');
-    areaVendas.appendChild(novaLinha);
-
-    let pessoa = document.createElement("h1");
-    let textoNome = document.createTextNode('Nome');
-    novaLinha.classList.add('cabecalho');
-    pessoa.classList.add('item');
-    pessoa.appendChild(textoNome);
-    novaLinha.appendChild(pessoa);
-
-    let data = document.createElement("h1");
-    let textoData = document.createTextNode('Data');
-    novaLinha.classList.add('cabecalho');
-    data.classList.add('item');
-    data.appendChild(textoData);
-    novaLinha.appendChild(data);
-
-    let item = document.createElement("h1");
-    let textoItem = document.createTextNode('Item');
-    item.classList.add('item');
-    novaLinha.classList.add('cabecalho');
-    item.appendChild(textoItem);
-    novaLinha.appendChild(item);
-
-    let quantiade = document.createElement("h1");
-    let textoQuantidade = document.createTextNode('Quantidade');
-    quantiade.classList.add('item');
-    novaLinha.classList.add('cabecalho');
-    quantiade.appendChild(textoQuantidade);
-    novaLinha.appendChild(quantiade);
-
-    let valorVenda = document.createElement("h1");
-    let textoValorVenda = document.createTextNode('Valor Venda');
-    valorVenda.classList.add('item');
-    novaLinha.classList.add('cabecalho');
-    valorVenda.appendChild(textoValorVenda);
-    novaLinha.appendChild(valorVenda);
-}
 
 function montaRegistrosVendas(avatar, nome, data, compra, quantidade, valorVenda){
 
