@@ -37,6 +37,10 @@ header{
 
 /* TABELA */
 
+main{
+    background-color: #eff7f6;
+}
+
 .vendas{
     margin: 1% 10%;
 }
@@ -58,4 +62,49 @@ header{
     width: 40px;
     border-radius: 90px;
     max-height: 40px;
+}
+
+footer{
+    width: 100%;
+}
+
+footer .logo__loja{
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px){
+
+    header{
+        width: 90%;
+
+    }
+
+    .cabecalho{
+        display: none;
+    }
+
+    .linha{
+        background-color: #007bd983;
+        display: block;
+        padding: 10px;
+        height: auto;
+        border: 1px solid #007ad9;
+        box-shadow: 2px 2px rgb(172, 172, 172);
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    .item{
+        width: 100%;
+        padding: 5px;
+        border: none;
+    }
+
+    footer .logo__loja{
+        display: block;
+        width: 100px;
+        margin:  0 40%;
+    }
+
 }

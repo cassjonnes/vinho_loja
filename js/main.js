@@ -15,7 +15,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 65,
-            "unidades": 4,
+            "unidades": 5,
             "imagem": "./img/casillero_cabernet_s.webp"
         },
         {

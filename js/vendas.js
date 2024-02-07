@@ -137,39 +137,75 @@ let listaOrdenada = resultado.sort(function(b, a) {
     return a.data - b.data;
   });
 
-console.log(listaOrdenada)
+  function suaFuncao() {
+    // Se a largura da tela for maior que 700 pixels
+    if (window.innerWidth > 700) {
+        montaCabecalhoRegistroVendas();
+        for(let i = 0; i < listaOrdenada.length; i++){
+            montaRegistrosVendas(
+                listaOrdenada[i].avatar,
+                listaOrdenada[i].nome,
+                listaOrdenada[i].data,
+                listaOrdenada[i].compra,
+                listaOrdenada[i].quantidade,
+                listaOrdenada[i].valorVenda,
+                listaOrdenada[i].avatar,
+                listaOrdenada[i].valorVenda
+            )
+        }
+    } else {
+        for(let i = 0; i < listaOrdenada.length; i++){
+            montaRegistrosVendas(
+                listaOrdenada[i].avatar,
+                listaOrdenada[i].nome,
+                listaOrdenada[i].data,
+                listaOrdenada[i].compra,
+                listaOrdenada[i].quantidade,
+                listaOrdenada[i].valorVenda,
+                listaOrdenada[i].avatar,
+                listaOrdenada[i].valorVenda
+            )
+        }
+    }
+  }
+  
+  // Chamando suaFuncao quando a página é carregada
+  window.onload = function() {
 
-montaCabecalhoRegistroVendas()
+    const resultadosContainer = document.getElementById('vendas');
+    // Limpa o conteúdo anterior
+    resultadosContainer.innerHTML = '';
+    
+    suaFuncao();
+  };
+  
+  // Chamando suaFuncao quando a janela é redimensionada
+  window.onresize = function() {
+    const resultadosContainer = document.getElementById('vendas');
+    // Limpa o conteúdo anterior
+    resultadosContainer.innerHTML = '';
+    suaFuncao();
+  };
 
-for(let i = 0; i < listaOrdenada.length; i++){
-    montaRegistrosVendas(
-        listaOrdenada[i].avatar,
-        listaOrdenada[i].nome,
-        listaOrdenada[i].data,
-        listaOrdenada[i].compra,
-        listaOrdenada[i].quantidade,
-        listaOrdenada[i].valorCompra,
-        listaOrdenada[i].valorVenda,
-        listaOrdenada[i].avatar,
-        listaOrdenada[i].valorVenda
-    )
-}
 
 function montaCabecalhoRegistroVendas(){
     const areaVendas = document.querySelector('.vendas');
 
     let novaLinha = document.createElement("div");
     novaLinha.classList.add('linha');
+    novaLinha.classList.add('cabecalho');
     areaVendas.appendChild(novaLinha);
 
     let pessoa = document.createElement("h1");
     let textoNome = document.createTextNode('Nome');
+    novaLinha.classList.add('cabecalho');
     pessoa.classList.add('item');
     pessoa.appendChild(textoNome);
     novaLinha.appendChild(pessoa);
 
     let data = document.createElement("h1");
     let textoData = document.createTextNode('Data');
+    novaLinha.classList.add('cabecalho');
     data.classList.add('item');
     data.appendChild(textoData);
     novaLinha.appendChild(data);
@@ -177,29 +213,26 @@ function montaCabecalhoRegistroVendas(){
     let item = document.createElement("h1");
     let textoItem = document.createTextNode('Item');
     item.classList.add('item');
+    novaLinha.classList.add('cabecalho');
     item.appendChild(textoItem);
     novaLinha.appendChild(item);
 
     let quantiade = document.createElement("h1");
     let textoQuantidade = document.createTextNode('Quantidade');
     quantiade.classList.add('item');
+    novaLinha.classList.add('cabecalho');
     quantiade.appendChild(textoQuantidade);
     novaLinha.appendChild(quantiade);
-
-    let valorCompra = document.createElement("h1");
-    let textoValorCompra = document.createTextNode('Valor Compra');
-    valorCompra.classList.add('item');
-    valorCompra.appendChild(textoValorCompra);
-    novaLinha.appendChild(valorCompra);
 
     let valorVenda = document.createElement("h1");
     let textoValorVenda = document.createTextNode('Valor Venda');
     valorVenda.classList.add('item');
+    novaLinha.classList.add('cabecalho');
     valorVenda.appendChild(textoValorVenda);
     novaLinha.appendChild(valorVenda);
 }
 
-function montaRegistrosVendas(avatar, nome, data, compra, quantidade, valorCompra, valorVenda){
+function montaRegistrosVendas(avatar, nome, data, compra, quantidade, valorVenda){
 
     const areaVendas = document.querySelector('.vendas');
 
@@ -231,31 +264,25 @@ function montaRegistrosVendas(avatar, nome, data, compra, quantidade, valorCompr
     console.log(dataFormatada);
 
     let dataCompra = document.createElement("p");
-    let textoData = document.createTextNode(`${dataFormatada}`);
+    let textoData = document.createTextNode(`Data da compra: ${dataFormatada}`);
     dataCompra.classList.add('item');
     dataCompra.appendChild(textoData);
     novaLinha.appendChild(dataCompra);
 
     let itemCompra = document.createElement("p");
-    let textoCompra = document.createTextNode(`${compra}`);
+    let textoCompra = document.createTextNode(`Item: ${compra}`);
     itemCompra.classList.add('item');
     itemCompra.appendChild(textoCompra);
     novaLinha.appendChild(itemCompra);
 
     let itemQuantidade = document.createElement("p");
-    let textoQuantiade = document.createTextNode(`${quantidade}`);
+    let textoQuantiade = document.createTextNode(`Quantidade: ${quantidade}`);
     itemQuantidade.classList.add('item');
     itemQuantidade.appendChild(textoQuantiade);
     novaLinha.appendChild(itemQuantidade);
 
-    let compraValor = document.createElement("p");
-    let compraTexto = document.createTextNode(`R$${valorCompra}`);
-    compraValor.classList.add('item');
-    compraValor.appendChild(compraTexto);
-    novaLinha.appendChild(compraValor);
-
     let vendaValor = document.createElement("p");
-    let vendaTexto = document.createTextNode(`R$${valorVenda}`);
+    let vendaTexto = document.createTextNode(`Valor de Venda R$${valorVenda}`);
     vendaValor.classList.add('item');
     vendaValor.appendChild(vendaTexto);
     novaLinha.appendChild(vendaValor);
