@@ -78,6 +78,14 @@ let vendas = [{
     quantidade: 1,
     valorCompra: 40,
     valorVenda: 55
+},
+{
+    nome: 'Candice',
+    data: 09/02/2024,
+    compra: 'Pack de Corona',
+    quantidade: 1,
+    valorCompra: 40,
+    valorVenda: 55
 }]
 
 // INFO USUARIOS
@@ -94,7 +102,7 @@ let arrayObjetos = [{
 {
     nome: 'Candice',
     avatar: './img/candice.jpeg',
-    valorGasto: 100
+    valorGasto: 155
 },
 {
     nome: 'Camille',
