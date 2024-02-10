@@ -1,7 +1,7 @@
 let arrayObjetos = [{
     nome: 'Carlinhos',
     avatar: './img/carlinhos.jpeg',
-    valorGasto: 180
+    valorGasto: 220
 },
 {
     nome: 'Candida',
@@ -11,7 +11,7 @@ let arrayObjetos = [{
 {
     nome: 'Candice',
     avatar: './img/candice.jpeg',
-    valorGasto: 155
+    valorGasto: 190
 },
 {
     nome: 'Camille',

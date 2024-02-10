@@ -51,7 +51,7 @@ const dados = {
             "tipo": "Branco",
             "uva": "Sauvignon Blanc",
             "preco": 40,
-            "unidades": 2,
+            "unidades": 1,
             "imagem": "./img/tierruca_blanc.webp"
         },
         {
@@ -60,7 +60,7 @@ const dados = {
             "tipo": "Brut",
             "uva": "",
             "preco": 35,
-            "unidades": 8,
+            "unidades": 7,
             "imagem": "./img/garibaldiVeroBrut.jpeg"
         },
         {
