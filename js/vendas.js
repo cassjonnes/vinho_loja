@@ -86,6 +86,14 @@ let vendas = [{
     quantidade: 1,
     valorCompra: 40,
     valorVenda: 55
+},
+{
+    nome: 'Carlinhos',
+    data: 10/02/2024,
+    compra: 'Tierruca',
+    quantidade: 1,
+    valorCompra: 30,
+    valorVenda: 40
 }]
 
 // INFO USUARIOS
