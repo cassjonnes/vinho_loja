@@ -126,23 +126,31 @@ let vendas = [{
     quantidade: 1,
     valorCompra: 42,
     valorVenda: 50
+},
+{
+    nome: 'Candida',
+    data: 11/012/2024,
+    compra: 'Pack de heineken',
+    quantidade: 1,
+    valorCompra: 42,
+    valorVenda: 50
 }]
 
 // INFO USUARIOS
 let arrayObjetos = [{
     nome: 'Carlinhos',
     avatar: './img/carlinhos.jpeg',
-    valorGasto: 140
+    valorGasto: 260
 },
 {
     nome: 'Candida',
     avatar: './img/candida.jpeg',
-    valorGasto: 125
+    valorGasto: 175
 },
 {
     nome: 'Candice',
     avatar: './img/candice.jpeg',
-    valorGasto: 155
+    valorGasto: 240
 },
 {
     nome: 'Camille',
