@@ -232,6 +232,7 @@ main{
 .cabert_sauvignon, 
 .brut, 
 .branco, 
+.rose,
 .sauvignon_blanc{
     font-weight: bold;
     color: #fff;
@@ -277,6 +278,10 @@ main{
 
 .merlot{
     background-color: #22278f;
+}
+
+.rose{
+    background-color: #8b3442;
 }
 
 .unidade{

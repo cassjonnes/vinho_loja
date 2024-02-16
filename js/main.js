@@ -33,7 +33,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 45,
-            "unidades": 4,
+            "unidades": 8,
             "imagem": "./img/reservadoCabernetSauvignon.jpeg"
         },
         {
@@ -78,8 +78,26 @@ const dados = {
             "tipo": "Cerveja",
             "uva": "",
             "preco": 55,
-            "unidades": 2,
+            "unidades": 3,
             "imagem": "./img/pack_corona.webp"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Chac Chac - Branco",
+            "tipo": "Branco",
+            "uva": "",
+            "preco": 35,
+            "unidades": 3,
+            "imagem": "./img/chacchac_branco.jpeg"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Chac Chac - Rose",
+            "tipo": "Rose",
+            "uva": "",
+            "preco": 35,
+            "unidades": 2,
+            "imagem": "./img/chacchac_rose.jpeg"
         }
     ]
     }
@@ -131,6 +149,8 @@ function montaCard (i, classe, titulo, tipo, uva, preco, unidades, imagem){
         tag.classList.add('brut');
     }else if (tipo === "Cerveja"){
         tag.classList.add('cerveja');
+    }else if (tipo === "Rose"){
+        tag.classList.add('rose');
     }
     let textoTagGarrafa = document.createTextNode(`${tipo}`);
     tag.appendChild(textoTagGarrafa);
