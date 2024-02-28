@@ -64,6 +64,6 @@ function soma (array){
     let barraProgresso = document.createElement("progress");
     barraProgresso.min = 0;
     barraProgresso.max = metaValor;
-    barraProgresso.value = valorTotal;
+    barraProgresso.value = valorTotal * 0.3;
     areaMeta.appendChild(barraProgresso);
  };

@@ -51,7 +51,7 @@ const dados = {
             "tipo": "Branco",
             "uva": "Sauvignon Blanc",
             "preco": 40,
-            "unidades": 0,
+            "unidades": 3,
             "imagem": "./img/tierruca_blanc.webp"
         },
         {
