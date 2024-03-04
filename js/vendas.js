@@ -134,7 +134,15 @@ let vendas = [{
     quantidade: 1,
     valorCompra: 42,
     valorVenda: 50
-}]
+},
+{
+    nome: 'Candida',
+    data: 02/03/2024,
+    compra: 'Pack de heineken',
+    quantidade: 1,
+    valorCompra: 42,
+    valorVenda: 50
+}];
 
 // INFO USUARIOS
 let arrayObjetos = [{

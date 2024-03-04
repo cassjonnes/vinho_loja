@@ -6,7 +6,7 @@ let arrayObjetos = [{
 {
     nome: 'Candida',
     avatar: './img/candida.jpeg',
-    valorGasto: 175
+    valorGasto: 225
 },
 {
     nome: 'Candice',

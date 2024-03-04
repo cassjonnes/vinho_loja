@@ -11,7 +11,7 @@ let users = [{
 {
     nome: 'Cândida',
     avatar: './img/candida.jpeg',
-    valorGasto: 175
+    valorGasto: 225
 },
 {
     nome: 'Camille',
