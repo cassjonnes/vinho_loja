@@ -121,7 +121,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 11/012/2024,
+    data: 11/12/2024,
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -129,7 +129,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 11/012/2024,
+    data: 11/12/2024,
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
