@@ -166,13 +166,45 @@ let vendas = [{
     quantidade: 1,
     valorCompra: 40,
     valorVenda: 55
+},
+{
+    nome: 'Candice',
+    data: 14/04/2024,
+    compra: 'Chac Chac - Rose',
+    quantidade: 1,
+    valorCompra: 22,
+    valorVenda: 35
+},
+{
+    nome: 'Candice',
+    data: 14/04/2024,
+    compra: 'Chac Chac - Rose',
+    quantidade: 1,
+    valorCompra: 22,
+    valorVenda: 35
+},
+{
+    nome: 'Candice',
+    data: 14/04/2024,
+    compra: 'Casillero Del Diablo',
+    quantidade: 1,
+    valorCompra: 45,
+    valorVenda: 65
+},
+{
+    nome: 'Carlinhos',
+    data: 14/04/2024,
+    compra: 'Granja União',
+    quantidade: 1,
+    valorCompra: 25,
+    valorVenda: 35
 }];
 
 // INFO USUARIOS
 let arrayObjetos = [{
     nome: 'Carlinhos',
     avatar: './img/carlinhos.jpeg',
-    valorGasto: 260
+    valorGasto: 295
 },
 {
     nome: 'Candida',
@@ -182,7 +214,7 @@ let arrayObjetos = [{
 {
     nome: 'Candice',
     avatar: './img/candice.jpeg',
-    valorGasto: 340
+    valorGasto: 475
 },
 {
     nome: 'Camille',

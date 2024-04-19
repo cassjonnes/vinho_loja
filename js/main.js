@@ -15,7 +15,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 65,
-            "unidades": 5,
+            "unidades": 4,
             "imagem": "./img/casillero_cabernet_s.webp"
         },
         {
@@ -24,7 +24,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 35,
-            "unidades": 2,
+            "unidades": 1,
             "imagem": "./img/granjaUniaoCabernet.jpeg"
         },
         {
@@ -96,7 +96,7 @@ const dados = {
             "tipo": "Rose",
             "uva": "",
             "preco": 35,
-            "unidades": 2,
+            "unidades": 0,
             "imagem": "./img/chacchac_rose.jpeg"
         }
     ]
