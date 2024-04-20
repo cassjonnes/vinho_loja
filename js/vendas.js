@@ -235,6 +235,14 @@ let arrayObjetos = [{
     nome: 'Lucas',
     avatar: './img/lucas.png',
     valorGasto: 0
+},
+{
+    nome: 'Candida',
+    data: 20/04/2024,
+    compra: 'Pack de heineken',
+    quantidade: 1,
+    valorCompra: 42,
+    valorVenda: 50
 }]
 
 function mesclarArrays(vendas, arrayObjetos, nome) {
