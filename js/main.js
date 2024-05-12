@@ -24,7 +24,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 35,
-            "unidades": 1,
+            "unidades": 0,
             "imagem": "./img/granjaUniaoCabernet.jpeg"
         },
         {
@@ -33,7 +33,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 45,
-            "unidades": 4,
+            "unidades": 2,
             "imagem": "./img/reservadoCabernetSauvignon.jpeg"
         },
         {
@@ -51,7 +51,7 @@ const dados = {
             "tipo": "Branco",
             "uva": "Sauvignon Blanc",
             "preco": 40,
-            "unidades": 3,
+            "unidades": 0,
             "imagem": "./img/tierruca_blanc.webp"
         },
         {
@@ -60,7 +60,7 @@ const dados = {
             "tipo": "Brut",
             "uva": "",
             "preco": 35,
-            "unidades": 7,
+            "unidades": 4,
             "imagem": "./img/garibaldiVeroBrut.jpeg"
         },
         {
@@ -87,7 +87,7 @@ const dados = {
             "tipo": "Branco",
             "uva": "",
             "preco": 35,
-            "unidades": 3,
+            "unidades": 0,
             "imagem": "./img/chacchac_branco.jpeg"
         },
         {

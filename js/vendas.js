@@ -254,18 +254,130 @@ let vendas = [{
     quantidade: 1,
     valorCompra: 35,
     valorVenda: 45
+},
+{
+    nome: 'Candida',
+    data: 20/04/2024,
+    compra: 'Pack de heineken',
+    quantidade: 1,
+    valorCompra: 42,
+    valorVenda: 50
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Reservado',
+    quantidade: 1,
+    valorCompra: 35,
+    valorVenda: 45
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Reservado',
+    quantidade: 1,
+    valorCompra: 35,
+    valorVenda: 45
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Granja União',
+    quantidade: 1,
+    valorCompra: 25,
+    valorVenda: 35
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Tierruca',
+    quantidade: 1,
+    valorCompra: 30,
+    valorVenda: 40
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Tierruca',
+    quantidade: 1,
+    valorCompra: 30,
+    valorVenda: 40
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Tierruca',
+    quantidade: 1,
+    valorCompra: 30,
+    valorVenda: 40
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Tierruca',
+    quantidade: 1,
+    valorCompra: 30,
+    valorVenda: 40
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Chac Chac - Branco',
+    quantidade: 1,
+    valorCompra: 22,
+    valorVenda: 30
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Chac Chac - Branco',
+    quantidade: 1,
+    valorCompra: 22,
+    valorVenda: 30
+},
+{
+    nome: 'Carlinhos',
+    data: 12/05/2024,
+    compra: 'Chac Chac - Branco',
+    quantidade: 1,
+    valorCompra: 22,
+    valorVenda: 30
+},
+{
+    nome: 'Candida',
+    data: 12/05/2024,
+    compra: 'Garibaldi',
+    quantidade: 1,
+    valorCompra: 28,
+    valorVenda: 35
+},
+{
+    nome: 'Camille',
+    data: 12/05/2024,
+    compra: 'Garibaldi',
+    quantidade: 1,
+    valorCompra: 28,
+    valorVenda: 35
+},
+{
+    nome: 'Camille',
+    data: 12/05/2024,
+    compra: 'Garibaldi',
+    quantidade: 1,
+    valorCompra: 28,
+    valorVenda: 35
 }];
 
 // INFO USUARIOS
 let arrayObjetos = [{
     nome: 'Carlinhos',
     avatar: './img/carlinhos.jpeg',
-    valorGasto: 475
+    valorGasto: 825
 },
 {
     nome: 'Candida',
     avatar: './img/candida.jpeg',
-    valorGasto: 280
+    valorGasto: 310
 },
 {
     nome: 'Candice',
@@ -275,7 +387,7 @@ let arrayObjetos = [{
 {
     nome: 'Camille',
     avatar: './img/camille.png',
-    valorGasto: 0
+    valorGasto: 60
 },
 {
     nome: 'Juliano',
@@ -291,14 +403,6 @@ let arrayObjetos = [{
     nome: 'Lucas',
     avatar: './img/lucas.png',
     valorGasto: 0
-},
-{
-    nome: 'Candida',
-    data: 20/04/2024,
-    compra: 'Pack de heineken',
-    quantidade: 1,
-    valorCompra: 42,
-    valorVenda: 50
 }]
 
 function mesclarArrays(vendas, arrayObjetos, nome) {
