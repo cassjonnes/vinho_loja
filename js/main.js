@@ -41,7 +41,7 @@ const dados = {
             "titulo": "Trapiche",
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
-            "preco": 60,
+            "preco": 55,
             "unidades": 3,
             "imagem": "./img/trapiche_cabernet_s.jpeg"
         },
