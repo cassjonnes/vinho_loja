@@ -374,6 +374,14 @@ let vendas = [{
     quantidade: 1,
     valorCompra: 35,
     valorVenda: 55
+},
+{
+    nome: 'Carlo',
+    data: 13/05/2024,
+    compra: 'Casa Silva',
+    quantidade: 1,
+    valorCompra: 35,
+    valorVenda: 55
 }];
 
 // INFO USUARIOS
@@ -415,7 +423,7 @@ let arrayObjetos = [{
 {
     nome: 'Carlo',
     avatar: './img/carlo.png',
-    valorGasto: 55
+    valorGasto: 110
 }]
 
 function mesclarArrays(vendas, arrayObjetos, nome) {

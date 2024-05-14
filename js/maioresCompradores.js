@@ -36,7 +36,7 @@ let arrayObjetos = [{
 {
     nome: 'Carlo',
     avatar: './img/carlo.png',
-    valorGasto: 55
+    valorGasto: 110
 }]
 
 listaOrdenada = arrayObjetos.sort(function(b, a) {
