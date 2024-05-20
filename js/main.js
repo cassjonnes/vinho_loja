@@ -6,7 +6,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 55,
-            "unidades": 3,
+            "unidades": 1,
             "imagem": "./img/casaSilva.webp"
         },
         {
