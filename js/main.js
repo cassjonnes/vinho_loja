@@ -20,11 +20,29 @@ const dados = {
         },
         {
             "classe": "vinho",
+            "titulo": "Reservado",
+            "tipo": "Rose",
+            "uva": "",
+            "preco": 45,
+            "unidades": 2,
+            "imagem": "./img/reservado_rose.webp"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Reservado",
+            "tipo": "Branco",
+            "uva": "Sauvignon Blanc",
+            "preco": 45,
+            "unidades": 2,
+            "imagem": "./img/Reservado-Sauv-Blanc.jpeg"
+        },
+        {
+            "classe": "vinho",
             "titulo": "Granja União",
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 35,
-            "unidades": 0,
+            "unidades": 4,
             "imagem": "./img/granjaUniaoCabernet.jpeg"
         },
         {
@@ -33,7 +51,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 45,
-            "unidades": 1,
+            "unidades": 5,
             "imagem": "./img/reservadoCabernetSauvignon.jpeg"
         },
         {
@@ -41,19 +59,19 @@ const dados = {
             "titulo": "Trapiche",
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
-            "preco": 55,
+            "preco": 45,
             "unidades": 3,
             "imagem": "./img/trapiche_cabernet_s.jpeg"
         },
-        {
-            "classe": "vinho",
-            "titulo": "Tierruca",
-            "tipo": "Branco",
-            "uva": "Sauvignon Blanc",
-            "preco": 40,
-            "unidades": 0,
-            "imagem": "./img/tierruca_blanc.webp"
-        },
+        // {
+        //     "classe": "vinho",
+        //     "titulo": "Tierruca",
+        //     "tipo": "Branco",
+        //     "uva": "Sauvignon Blanc",
+        //     "preco": 40,
+        //     "unidades": 0,
+        //     "imagem": "./img/tierruca_blanc.webp"
+        // },
         {
             "classe": "espumante",
             "titulo": "Garibaldi",
@@ -62,43 +80,43 @@ const dados = {
             "preco": 35,
             "unidades": 4,
             "imagem": "./img/garibaldiVeroBrut.jpeg"
-        },
-        {
-            "classe": "cerveja",
-            "titulo": "Pack de Heineken",
-            "tipo": "Cerveja",
-            "uva": "",
-            "preco": 50,
-            "unidades": 0,
-            "imagem": "./img/pack_heineken.webp"
-        },
-        {
-            "classe": "cerveja",
-            "titulo": "Pack de Corona",
-            "tipo": "Cerveja",
-            "uva": "",
-            "preco": 55,
-            "unidades": 0,
-            "imagem": "./img/pack_corona.webp"
-        },
-        {
-            "classe": "vinho",
-            "titulo": "Chac Chac - Branco",
-            "tipo": "Branco",
-            "uva": "",
-            "preco": 35,
-            "unidades": 0,
-            "imagem": "./img/chacchac_branco.jpeg"
-        },
-        {
-            "classe": "vinho",
-            "titulo": "Chac Chac - Rose",
-            "tipo": "Rose",
-            "uva": "",
-            "preco": 35,
-            "unidades": 0,
-            "imagem": "./img/chacchac_rose.jpeg"
-        }
+        }//,
+        // {
+        //     "classe": "cerveja",
+        //     "titulo": "Pack de Heineken",
+        //     "tipo": "Cerveja",
+        //     "uva": "",
+        //     "preco": 50,
+        //     "unidades": 0,
+        //     "imagem": "./img/pack_heineken.webp"
+        // },
+        // {
+        //     "classe": "cerveja",
+        //     "titulo": "Pack de Corona",
+        //     "tipo": "Cerveja",
+        //     "uva": "",
+        //     "preco": 55,
+        //     "unidades": 0,
+        //     "imagem": "./img/pack_corona.webp"
+        // },
+        // {
+        //     "classe": "vinho",
+        //     "titulo": "Chac Chac - Branco",
+        //     "tipo": "Branco",
+        //     "uva": "",
+        //     "preco": 35,
+        //     "unidades": 0,
+        //     "imagem": "./img/chacchac_branco.jpeg"
+        // },
+        // {
+        //     "classe": "vinho",
+        //     "titulo": "Chac Chac - Rose",
+        //     "tipo": "Rose",
+        //     "uva": "",
+        //     "preco": 35,
+        //     "unidades": 0,
+        //     "imagem": "./img/chacchac_rose.jpeg"
+        // }
     ]
     }
 
