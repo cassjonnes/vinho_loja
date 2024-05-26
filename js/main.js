@@ -6,7 +6,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 55,
-            "unidades": 1,
+            "unidades": 7,
             "imagem": "./img/casaSilva.webp"
         },
         {
@@ -78,7 +78,7 @@ const dados = {
             "tipo": "Brut",
             "uva": "",
             "preco": 35,
-            "unidades": 4,
+            "unidades": 6,
             "imagem": "./img/garibaldiVeroBrut.jpeg"
         }//,
         // {
