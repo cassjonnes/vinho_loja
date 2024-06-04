@@ -80,16 +80,16 @@ const dados = {
             "preco": 35,
             "unidades": 6,
             "imagem": "./img/garibaldiVeroBrut.jpeg"
-        }//,
-        // {
-        //     "classe": "cerveja",
-        //     "titulo": "Pack de Heineken",
-        //     "tipo": "Cerveja",
-        //     "uva": "",
-        //     "preco": 50,
-        //     "unidades": 0,
-        //     "imagem": "./img/pack_heineken.webp"
-        // },
+        },
+        {
+            "classe": "cerveja",
+            "titulo": "Pack de Heineken",
+            "tipo": "Cerveja",
+            "uva": "",
+            "preco": 50,
+            "unidades": 6,
+            "imagem": "./img/pack_heineken.webp"
+        }
         // {
         //     "classe": "cerveja",
         //     "titulo": "Pack de Corona",
