@@ -87,7 +87,7 @@ const dados = {
             "tipo": "Cerveja",
             "uva": "",
             "preco": 50,
-            "unidades": 6,
+            "unidades": 4,
             "imagem": "./img/pack_heineken.webp"
         }
         // {

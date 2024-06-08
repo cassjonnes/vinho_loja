@@ -6,12 +6,12 @@ let users = [{
 {
     nome: 'Candice',
     avatar: './img/candice.jpeg',
-    valorGasto: 640
+    valorGasto: 690
 },
 {
     nome: 'Cândida',
     avatar: './img/candida.jpeg',
-    valorGasto: 310
+    valorGasto: 360
 },
 {
     nome: 'Camille',
