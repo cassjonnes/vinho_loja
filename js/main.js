@@ -98,16 +98,9 @@ const dados = {
             "preco": 50,
             "unidades": 6,
             "imagem": "./img/piel_de_lobo.png"
-        },
-        {
-            "classe": "vinho",
-            "titulo": "Tierruca - Reserva",
-            "tipo": "Tinto",
-            "uva": "Cabernet Sauvignon",
-            "preco": 45,
-            "unidades": 1,
-            "imagem": "./img/tierruca_reserva.webp"
         }
+        //,
+//
         // {
         //     "classe": "cerveja",
         //     "titulo": "Pack de Corona",
