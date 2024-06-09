@@ -15,7 +15,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 65,
-            "unidades": 4,
+            "unidades": 5,
             "imagem": "./img/casillero_cabernet_s.webp"
         },
         {
@@ -51,7 +51,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 45,
-            "unidades": 5,
+            "unidades": 13,
             "imagem": "./img/reservadoCabernetSauvignon.jpeg"
         },
         {
@@ -89,6 +89,24 @@ const dados = {
             "preco": 50,
             "unidades": 4,
             "imagem": "./img/pack_heineken.webp"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Piel de Lobo",
+            "tipo": "Tinto",
+            "uva": "Malbec",
+            "preco": 50,
+            "unidades": 6,
+            "imagem": "./img/piel_de_lobo.png"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Tierruca - Reserva",
+            "tipo": "Tinto",
+            "uva": "Cabernet Sauvignon",
+            "preco": 45,
+            "unidades": 1,
+            "imagem": "./img/tierruca_reserva.webp"
         }
         // {
         //     "classe": "cerveja",
@@ -182,6 +200,8 @@ function montaCard (i, classe, titulo, tipo, uva, preco, unidades, imagem){
         tagUva.classList.add('cabert_sauvignon');
     } else if (uva === "Sauvignon Blanc"){
         tagUva.classList.add('sauvignon_blanc');
+    }else if (uva === "Malbec"){
+        tagUva.classList.add('malbec');
     }
 
     let precoGarrafa = document.createElement("h2");

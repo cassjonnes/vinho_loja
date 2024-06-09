@@ -242,7 +242,8 @@ main{
 .brut, 
 .branco, 
 .rose,
-.sauvignon_blanc{
+.sauvignon_blanc,
+.malbec{
     font-weight: bold;
     color: #fff;
     padding: 5px;
@@ -291,6 +292,10 @@ main{
 
 .rose{
     background-color: #8b3442;
+}
+
+.malbec{
+    background-color: #ec6b80;
 }
 
 .unidade{
