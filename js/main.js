@@ -6,7 +6,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 55,
-            "unidades": 7,
+            "unidades": 17,
             "imagem": "./img/casaSilva.webp"
         },
         {
@@ -15,8 +15,26 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 65,
-            "unidades": 5,
+            "unidades": 4,
             "imagem": "./img/casillero_cabernet_s.webp"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Miolo Seleção",
+            "tipo": "Rose",
+            "uva": "Cabernet Sauvignon",
+            "preco": 40,
+            "unidades": 4,
+            "imagem": "./img/miolo-selecao-rose.jpeg"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Miolo Seleção",
+            "tipo": "Branco",
+            "uva": "Pinot G & Riesling",
+            "preco": 40,
+            "unidades": 2,
+            "imagem": "./img/miolo_selecao_pinot_branco.webp"
         },
         {
             "classe": "vinho",
@@ -42,7 +60,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 35,
-            "unidades": 4,
+            "unidades": 16,
             "imagem": "./img/granjaUniaoCabernet.jpeg"
         },
         {
@@ -63,15 +81,24 @@ const dados = {
             "unidades": 3,
             "imagem": "./img/trapiche_cabernet_s.jpeg"
         },
-        // {
-        //     "classe": "vinho",
-        //     "titulo": "Tierruca",
-        //     "tipo": "Branco",
-        //     "uva": "Sauvignon Blanc",
-        //     "preco": 40,
-        //     "unidades": 0,
-        //     "imagem": "./img/tierruca_blanc.webp"
-        // },
+        {
+            "classe": "vinho",
+            "titulo": "Tierruca",
+            "tipo": "Branco",
+            "uva": "Sauvignon Blanc",
+            "preco": 40,
+            "unidades": 3,
+            "imagem": "./img/tierruca_blanc.webp"
+        },
+                {
+            "classe": "vinho",
+            "titulo": "Tierruca - Reserva",
+            "tipo": "Branco",
+            "uva": "Sauvignon Blanc",
+            "preco": 45,
+            "unidades": 4,
+            "imagem": "./img/tierruca-reserva-salvignon-blanc.webp"
+        },
         {
             "classe": "espumante",
             "titulo": "Garibaldi",
@@ -87,7 +114,7 @@ const dados = {
             "tipo": "Cerveja",
             "uva": "",
             "preco": 50,
-            "unidades": 4,
+            "unidades": 1,
             "imagem": "./img/pack_heineken.webp"
         },
         {
@@ -98,6 +125,15 @@ const dados = {
             "preco": 50,
             "unidades": 6,
             "imagem": "./img/piel_de_lobo.png"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Piel de Lobo",
+            "tipo": "Tinto",
+            "uva": "Cabernet Sauvignon",
+            "preco": 50,
+            "unidades": 3,
+            "imagem": "./img/piel-de-lobo-cabernet-sauvignon.png"
         }
         //,
 //
@@ -195,6 +231,8 @@ function montaCard (i, classe, titulo, tipo, uva, preco, unidades, imagem){
         tagUva.classList.add('sauvignon_blanc');
     }else if (uva === "Malbec"){
         tagUva.classList.add('malbec');
+    }else if (uva === "Pinot G & Riesling"){
+        tagUva.classList.add('pinot');
     }
 
     let precoGarrafa = document.createElement("h2");

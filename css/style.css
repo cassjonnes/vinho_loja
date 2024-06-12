@@ -243,7 +243,8 @@ main{
 .branco, 
 .rose,
 .sauvignon_blanc,
-.malbec{
+.malbec,
+.pinot{
     font-weight: bold;
     color: #fff;
     padding: 5px;
@@ -296,6 +297,10 @@ main{
 
 .malbec{
     background-color: #ec6b80;
+}
+
+.pinot{
+    background-color: #aea741;
 }
 
 .unidade{
