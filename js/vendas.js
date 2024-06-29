@@ -1,7 +1,7 @@
 // VENDAS
 let vendas = [{
     nome: 'Juliano',
-    data: 06/01/2024,
+    data: '2024-01-06',
     compra: 'Casa Silva',
     quantidade: 1,
     valorCompra: 35,
@@ -9,7 +9,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 06/01/2024,
+    data: '2024-01-06',
     compra: 'Garibaldi',
     quantidade: 1,
     valorCompra: 28,
@@ -17,7 +17,7 @@ let vendas = [{
 },
 {
     nome: 'Kelly',
-    data: 07/01/2024,
+    data: '2024-01-07',
     compra: 'Garibaldi',
     quantidade: 1,
     valorCompra: 28,
@@ -25,7 +25,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 19/01/2024,
+    data: '2024-01-19',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -33,7 +33,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 19/01/2024,
+    data: '2024-01-19',
     compra: 'Casa Silva',
     quantidade: 1,
     valorCompra: 35,
@@ -41,7 +41,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 19/01/2024,
+    data: '2024-01-19',
     compra: 'Trapiche',
     quantidade: 1,
     valorCompra: 45,
@@ -49,7 +49,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 19/01/2024,
+    data: '2024-01-19',
     compra: 'Tierruca',
     quantidade: 1,
     valorCompra: 30,
@@ -57,7 +57,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 20/01/2024,
+    data: '2024-01-20',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -65,7 +65,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 21/01/2024,
+    data: '2024-01-21',
     compra: 'Garibaldi',
     quantidade: 1,
     valorCompra: 28,
@@ -73,7 +73,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 03/02/2024,
+    data: '2024-02-01',
     compra: 'Pack de Corona',
     quantidade: 1,
     valorCompra: 40,
@@ -81,7 +81,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 09/02/2024,
+    data: '2024-02-09',
     compra: 'Pack de Corona',
     quantidade: 1,
     valorCompra: 40,
@@ -89,7 +89,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 10/02/2024,
+    data: '2024-02-10',
     compra: 'Tierruca',
     quantidade: 1,
     valorCompra: 30,
@@ -97,7 +97,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 10/02/2024,
+    data: '2024-02-10',
     compra: 'Tierruca',
     quantidade: 1,
     valorCompra: 30,
@@ -105,7 +105,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 21/01/2024,
+    data: '2024-02-21',
     compra: 'Garibaldi',
     quantidade: 1,
     valorCompra: 28,
@@ -113,7 +113,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 11/02/2024,
+    data: '2024-02-11',
     compra: 'Tierruca',
     quantidade: 1,
     valorCompra: 30,
@@ -121,7 +121,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 11/12/2024,
+    data: '2024-02-11',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -129,7 +129,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 11/12/2024,
+    data: '2024-02-11',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -137,7 +137,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 02/03/2024,
+    data: '2024-03-02',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -145,7 +145,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 13/03/2024,
+    data: '2024-03-13',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -153,7 +153,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 13/03/2024,
+    data: '2024-03-13',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -161,7 +161,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 25/03/2024,
+    data: '2024-03-25',
     compra: 'Pack de Corona',
     quantidade: 1,
     valorCompra: 40,
@@ -169,7 +169,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 14/04/2024,
+    data: '2024-04-14',
     compra: 'Chac Chac - Rose',
     quantidade: 1,
     valorCompra: 22,
@@ -177,7 +177,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 14/04/2024,
+    data: '2024-04-14',
     compra: 'Chac Chac - Rose',
     quantidade: 1,
     valorCompra: 22,
@@ -185,7 +185,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 14/04/2024,
+    data: '2024-04-14',
     compra: 'Casillero Del Diablo',
     quantidade: 1,
     valorCompra: 45,
@@ -193,7 +193,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 14/04/2024,
+    data: '2024-04-14',
     compra: 'Granja União',
     quantidade: 1,
     valorCompra: 25,
@@ -201,7 +201,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 09/04/2024,
+    data: '2024-04-09',
     compra: 'Pack de Corona',
     quantidade: 1,
     valorCompra: 40,
@@ -209,7 +209,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 09/04/2024,
+    data: '2024-04-09',
     compra: 'Pack de Corona',
     quantidade: 1,
     valorCompra: 40,
@@ -217,7 +217,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 09/04/2024,
+    data: '2024-04-09',
     compra: 'Casa Silva',
     quantidade: 1,
     valorCompra: 35,
@@ -225,7 +225,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 09/04/2024,
+    data: '2024-04-09',
     compra: 'Reservado',
     quantidade: 1,
     valorCompra: 35,
@@ -233,7 +233,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 09/04/2024,
+    data: '2024-04-09',
     compra: 'Reservado',
     quantidade: 1,
     valorCompra: 35,
@@ -241,7 +241,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 09/04/2024,
+    data: '2024-04-09',
     compra: 'Reservado',
     quantidade: 1,
     valorCompra: 35,
@@ -249,7 +249,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 09/04/2024,
+    data: '2024-04-09',
     compra: 'Reservado',
     quantidade: 1,
     valorCompra: 35,
@@ -257,7 +257,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 20/04/2024,
+    data: '2024-04-20',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -265,7 +265,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Reservado',
     quantidade: 1,
     valorCompra: 35,
@@ -273,7 +273,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Reservado',
     quantidade: 1,
     valorCompra: 35,
@@ -281,7 +281,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Granja União',
     quantidade: 1,
     valorCompra: 25,
@@ -289,7 +289,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Tierruca',
     quantidade: 1,
     valorCompra: 30,
@@ -297,7 +297,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Tierruca',
     quantidade: 1,
     valorCompra: 30,
@@ -305,7 +305,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Tierruca',
     quantidade: 1,
     valorCompra: 30,
@@ -313,7 +313,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Tierruca',
     quantidade: 1,
     valorCompra: 30,
@@ -321,7 +321,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Chac Chac - Branco',
     quantidade: 1,
     valorCompra: 22,
@@ -329,7 +329,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Chac Chac - Branco',
     quantidade: 1,
     valorCompra: 22,
@@ -337,7 +337,7 @@ let vendas = [{
 },
 {
     nome: 'Carlinhos',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Chac Chac - Branco',
     quantidade: 1,
     valorCompra: 22,
@@ -345,7 +345,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Garibaldi',
     quantidade: 1,
     valorCompra: 28,
@@ -353,7 +353,7 @@ let vendas = [{
 },
 {
     nome: 'Camille',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Reservado',
     quantidade: 1,
     valorCompra: 35,
@@ -361,7 +361,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Garibaldi',
     quantidade: 1,
     valorCompra: 28,
@@ -369,7 +369,7 @@ let vendas = [{
 },
 {
     nome: 'Carlo',
-    data: 12/05/2024,
+    data: '2024-05-12',
     compra: 'Casa Silva',
     quantidade: 1,
     valorCompra: 35,
@@ -377,7 +377,7 @@ let vendas = [{
 },
 {
     nome: 'Carlo',
-    data: 13/05/2024,
+    data: '2024-05-13',
     compra: 'Casa Silva',
     quantidade: 1,
     valorCompra: 35,
@@ -385,7 +385,7 @@ let vendas = [{
 },
 {
     nome: 'Carlo',
-    data: 13/05/2024,
+    data: '2024-05-13',
     compra: 'Casa Silva',
     quantidade: 1,
     valorCompra: 35,
@@ -393,7 +393,7 @@ let vendas = [{
 },
 {
     nome: 'Carlo',
-    data: 13/05/2024,
+    data: '2024-05-13',
     compra: 'Casa Silva',
     quantidade: 1,
     valorCompra: 35,
@@ -401,7 +401,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 08/06/2024,
+    data: '2024-06-08',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -409,7 +409,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 08/06/2024,
+    data: '2024-06-08',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -417,7 +417,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 22/06/2024,
+    data: '2024-06-22',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -425,7 +425,7 @@ let vendas = [{
 },
 {
     nome: 'Candice',
-    data: 22/06/2024,
+    data: '2024-06-22',
     compra: 'Pack de heineken',
     quantidade: 1,
     valorCompra: 42,
@@ -433,7 +433,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 08/06/2024,
+    data: '2024-06-29',
     compra: 'Piel de Lobo',
     quantidade: 1,
     valorCompra: 42,
@@ -441,7 +441,7 @@ let vendas = [{
 },
 {
     nome: 'Candida',
-    data: 08/06/2024,
+    data: '2024-06-29',
     compra: 'Piel de Lobo',
     quantidade: 1,
     valorCompra: 42,
@@ -492,75 +492,47 @@ let arrayObjetos = [{
 
 function mesclarArrays(vendas, arrayObjetos, nome) {
     return vendas.map(objeto1 => {
-      const objeto2 = arrayObjetos.find(objeto2 => objeto2[nome] === objeto1[nome]);
-  
-      // Se encontrou um objeto correspondente, mescla os objetos
-      if (objeto2) {
-        return { ...objeto1, ...objeto2 };
-      }
-  
-      // Se não encontrou correspondência, retorna o objeto original
-      return objeto1;
+        const objeto2 = arrayObjetos.find(objeto2 => objeto2[nome] === objeto1[nome]);
+
+        // Se encontrou um objeto correspondente, mescla os objetos
+        if (objeto2) {
+            return { ...objeto1, ...objeto2 };
+        }
+
+        // Se não encontrou correspondência, retorna o objeto original
+        return objeto1;
     });
-  }
+}
 
 const resultado = mesclarArrays(vendas, arrayObjetos, 'nome');
 
 let listaOrdenada = resultado.sort(function(b, a) {
-    return a.data - b.data;
-  });
+    return new Date(a.data) - new Date(b.data);
+});
 
-  function suaFuncao() {
-    // Se a largura da tela for maior que 700 pixels
-    if (window.innerWidth > 700) {
-        for(let i = 0; i < listaOrdenada.length; i++){
-            montaRegistrosVendas(
-                listaOrdenada[i].avatar,
-                listaOrdenada[i].nome,
-                listaOrdenada[i].data,
-                listaOrdenada[i].compra,
-                listaOrdenada[i].quantidade,
-                listaOrdenada[i].valorVenda,
-                listaOrdenada[i].avatar,
-                listaOrdenada[i].valorVenda
-            )
-        }
-    } else {
-        for(let i = 0; i < listaOrdenada.length; i++){
-            montaRegistrosVendas(
-                listaOrdenada[i].avatar,
-                listaOrdenada[i].nome,
-                listaOrdenada[i].data,
-                listaOrdenada[i].compra,
-                listaOrdenada[i].quantidade,
-                listaOrdenada[i].valorVenda,
-                listaOrdenada[i].avatar,
-                listaOrdenada[i].valorVenda
-            )
-        }
+function suaFuncao() {
+    const areaVendas = document.querySelector('.vendas');
+    areaVendas.innerHTML = ''; // Limpa o conteúdo anterior
+
+    for (let i = 0; i < listaOrdenada.length; i++) {
+        montaRegistrosVendas(
+            listaOrdenada[i].avatar,
+            listaOrdenada[i].nome,
+            listaOrdenada[i].data,
+            listaOrdenada[i].compra,
+            listaOrdenada[i].quantidade,
+            listaOrdenada[i].valorVenda
+        );
     }
-  }
-  
-  // Chamando suaFuncao quando a página é carregada
-  window.onload = function() {
+}
 
-    const resultadosContainer = document.getElementById('vendas');
-    // Limpa o conteúdo anterior
-    resultadosContainer.innerHTML = '';
-    
-    suaFuncao();
-  };
-  
-  // Chamando suaFuncao quando a janela é redimensionada
-  window.onresize = function() {
-    const resultadosContainer = document.getElementById('vendas');
-    // Limpa o conteúdo anterior
-    resultadosContainer.innerHTML = '';
-    suaFuncao();
-  };
+// Chamando suaFuncao quando a página é carregada
+window.onload = suaFuncao;
 
-function montaRegistrosVendas(avatar, nome, data, compra, quantidade, valorVenda){
+// Chamando suaFuncao quando a janela é redimensionada
+window.onresize = suaFuncao;
 
+function montaRegistrosVendas(avatar, nome, data, compra, quantidade, valorVenda) {
     const areaVendas = document.querySelector('.vendas');
 
     let novaLinha = document.createElement("div");
@@ -571,7 +543,6 @@ function montaRegistrosVendas(avatar, nome, data, compra, quantidade, valorVenda
     let usuarioAvatar = document.createElement("img");
     usuarioAvatar.src = avatar;
     usuarioAvatar.classList.add('img');
-    //usuarioAvatar.classList.add('item');
     novaLinha.appendChild(usuarioAvatar);
 
     let pessoa = document.createElement("h1");
@@ -580,14 +551,9 @@ function montaRegistrosVendas(avatar, nome, data, compra, quantidade, valorVenda
     pessoa.appendChild(textoNome);
     novaLinha.appendChild(pessoa);
 
-    const valorNumerico = data;
-    const valorEmMilissegundos = 1706923541921 // 86.400.000 milissegundos em um dia
-    const dataC = new Date(1970, 0, 1); // Época
-    
-    // Adicionando o valor em milissegundos ao objeto Date
-    dataC.setTime(dataC.getTime() + valorEmMilissegundos);
-    
-    const dataFormatada = formatarDataParaString(dataC);
+    // Converte a string da data para um objeto Date
+    let dataVenda = new Date(data);
+    let dataFormatada = formatarDataParaString(dataVenda);
     console.log(dataFormatada);
 
     let dataCompra = document.createElement("p");
@@ -609,17 +575,16 @@ function montaRegistrosVendas(avatar, nome, data, compra, quantidade, valorVenda
     novaLinha.appendChild(itemQuantidade);
 
     let vendaValor = document.createElement("p");
-    let vendaTexto = document.createTextNode(`Valor de Venda R$${valorVenda}`);
+    let vendaTexto = document.createTextNode(`Valor R$${valorVenda}`);
     vendaValor.classList.add('item');
     vendaValor.appendChild(vendaTexto);
     novaLinha.appendChild(vendaValor);
-
 }
 
 function formatarDataParaString(data) {
     const dia = String(data.getDate()).padStart(2, '0');
     const mes = String(data.getMonth() + 1).padStart(2, '0'); // Adicionando 1 ao mês
     const ano = data.getFullYear();
-  
+
     return `${dia}/${mes}/${ano}`;
-  }
+}
