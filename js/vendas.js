@@ -414,6 +414,38 @@ let vendas = [{
     quantidade: 1,
     valorCompra: 42,
     valorVenda: 50
+},
+{
+    nome: 'Candice',
+    data: 22/06/2024,
+    compra: 'Pack de heineken',
+    quantidade: 1,
+    valorCompra: 42,
+    valorVenda: 50
+},
+{
+    nome: 'Candice',
+    data: 22/06/2024,
+    compra: 'Pack de heineken',
+    quantidade: 1,
+    valorCompra: 42,
+    valorVenda: 50
+},
+{
+    nome: 'Candida',
+    data: 08/06/2024,
+    compra: 'Piel de Lobo',
+    quantidade: 1,
+    valorCompra: 42,
+    valorVenda: 50
+},
+{
+    nome: 'Candida',
+    data: 08/06/2024,
+    compra: 'Piel de Lobo',
+    quantidade: 1,
+    valorCompra: 42,
+    valorVenda: 50
 }];
 
 // INFO USUARIOS
@@ -425,12 +457,12 @@ let arrayObjetos = [{
 {
     nome: 'Candida',
     avatar: './img/candida.jpeg',
-    valorGasto: 350
+    valorGasto: 450
 },
 {
     nome: 'Candice',
     avatar: './img/candice.jpeg',
-    valorGasto: 690
+    valorGasto: 790
 },
 {
     nome: 'Camille',

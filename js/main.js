@@ -108,22 +108,22 @@ const dados = {
             "unidades": 6,
             "imagem": "./img/garibaldiVeroBrut.jpeg"
         },
-        {
-            "classe": "cerveja",
-            "titulo": "Pack de Heineken",
-            "tipo": "Cerveja",
-            "uva": "",
-            "preco": 50,
-            "unidades": 1,
-            "imagem": "./img/pack_heineken.webp"
-        },
+        // {
+        //     "classe": "cerveja",
+        //     "titulo": "Pack de Heineken",
+        //     "tipo": "Cerveja",
+        //     "uva": "",
+        //     "preco": 50,
+        //     "unidades": 0,
+        //     "imagem": "./img/pack_heineken.webp"
+        // },
         {
             "classe": "vinho",
             "titulo": "Piel de Lobo",
             "tipo": "Tinto",
             "uva": "Malbec",
             "preco": 50,
-            "unidades": 6,
+            "unidades": 5,
             "imagem": "./img/piel_de_lobo.png"
         },
         {
@@ -132,7 +132,7 @@ const dados = {
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
             "preco": 50,
-            "unidades": 3,
+            "unidades": 2,
             "imagem": "./img/piel-de-lobo-cabernet-sauvignon.png"
         }
         //,
