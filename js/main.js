@@ -20,42 +20,6 @@ const dados = {
         },
         {
             "classe": "vinho",
-            "titulo": "Miolo Seleção",
-            "tipo": "Rose",
-            "uva": "Cabernet Sauvignon",
-            "preco": 40,
-            "unidades": 4,
-            "imagem": "./img/miolo-selecao-rose.jpeg"
-        },
-        {
-            "classe": "vinho",
-            "titulo": "Miolo Seleção",
-            "tipo": "Branco",
-            "uva": "Pinot G & Riesling",
-            "preco": 40,
-            "unidades": 2,
-            "imagem": "./img/miolo_selecao_pinot_branco.webp"
-        },
-        {
-            "classe": "vinho",
-            "titulo": "Reservado",
-            "tipo": "Rose",
-            "uva": "",
-            "preco": 45,
-            "unidades": 2,
-            "imagem": "./img/reservado_rose.webp"
-        },
-        {
-            "classe": "vinho",
-            "titulo": "Reservado",
-            "tipo": "Branco",
-            "uva": "Sauvignon Blanc",
-            "preco": 45,
-            "unidades": 2,
-            "imagem": "./img/Reservado-Sauv-Blanc.jpeg"
-        },
-        {
-            "classe": "vinho",
             "titulo": "Granja União",
             "tipo": "Tinto",
             "uva": "Cabernet Sauvignon",
@@ -83,24 +47,6 @@ const dados = {
         },
         {
             "classe": "vinho",
-            "titulo": "Tierruca",
-            "tipo": "Branco",
-            "uva": "Sauvignon Blanc",
-            "preco": 40,
-            "unidades": 3,
-            "imagem": "./img/tierruca_blanc.webp"
-        },
-                {
-            "classe": "vinho",
-            "titulo": "Tierruca - Reserva",
-            "tipo": "Branco",
-            "uva": "Sauvignon Blanc",
-            "preco": 45,
-            "unidades": 4,
-            "imagem": "./img/tierruca-reserva-salvignon-blanc.webp"
-        },
-        {
-            "classe": "vinho",
             "titulo": "Piel de Lobo",
             "tipo": "Tinto",
             "uva": "Malbec",
@@ -116,6 +62,60 @@ const dados = {
             "preco": 50,
             "unidades": 2,
             "imagem": "./img/piel-de-lobo-cabernet-sauvignon.png"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Miolo Seleção",
+            "tipo": "Rose",
+            "uva": "Cabernet Sauvignon",
+            "preco": 40,
+            "unidades": 4,
+            "imagem": "./img/miolo-selecao-rose.jpeg"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Reservado",
+            "tipo": "Rose",
+            "uva": "",
+            "preco": 45,
+            "unidades": 2,
+            "imagem": "./img/reservado_rose.webp"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Miolo Seleção",
+            "tipo": "Branco",
+            "uva": "Pinot G & Riesling",
+            "preco": 40,
+            "unidades": 2,
+            "imagem": "./img/miolo_selecao_pinot_branco.webp"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Reservado",
+            "tipo": "Branco",
+            "uva": "Sauvignon Blanc",
+            "preco": 45,
+            "unidades": 2,
+            "imagem": "./img/Reservado-Sauv-Blanc.jpeg"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Tierruca",
+            "tipo": "Branco",
+            "uva": "Sauvignon Blanc",
+            "preco": 40,
+            "unidades": 3,
+            "imagem": "./img/tierruca_blanc.webp"
+        },
+        {
+            "classe": "vinho",
+            "titulo": "Tierruca - Reserva",
+            "tipo": "Branco",
+            "uva": "Sauvignon Blanc",
+            "preco": 45,
+            "unidades": 4,
+            "imagem": "./img/tierruca-reserva-salvignon-blanc.webp"
         },
         {
             "classe": "cerveja",
