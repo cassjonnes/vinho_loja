@@ -100,24 +100,6 @@ const dados = {
             "imagem": "./img/tierruca-reserva-salvignon-blanc.webp"
         },
         {
-            "classe": "espumante",
-            "titulo": "Garibaldi",
-            "tipo": "Brut",
-            "uva": "",
-            "preco": 35,
-            "unidades": 6,
-            "imagem": "./img/garibaldiVeroBrut.jpeg"
-        },
-        // {
-        //     "classe": "cerveja",
-        //     "titulo": "Pack de Heineken",
-        //     "tipo": "Cerveja",
-        //     "uva": "",
-        //     "preco": 50,
-        //     "unidades": 0,
-        //     "imagem": "./img/pack_heineken.webp"
-        // },
-        {
             "classe": "vinho",
             "titulo": "Piel de Lobo",
             "tipo": "Tinto",
@@ -134,18 +116,43 @@ const dados = {
             "preco": 50,
             "unidades": 2,
             "imagem": "./img/piel-de-lobo-cabernet-sauvignon.png"
+        },
+        {
+            "classe": "cerveja",
+            "titulo": "Pack de Heineken",
+            "tipo": "Cerveja",
+            "uva": "",
+            "preco": 50,
+            "unidades": 2,
+            "imagem": "./img/pack_heineken.webp"
+        },
+        {
+            "classe": "cerveja",
+            "titulo": "Pack de Corona",
+            "tipo": "Cerveja",
+            "uva": "",
+            "preco": 55,
+            "unidades": 2,
+            "imagem": "./img/pack_corona.webp"
+        },
+        {
+            "classe": "cerveja",
+            "titulo": "Amstel",
+            "tipo": "Cerveja",
+            "uva": "",
+            "preco": 60,
+            "unidades": 1,
+            "imagem": "./img/amstel_lata_engradado.jpeg"
+        },
+        {
+            "classe": "espumante",
+            "titulo": "Garibaldi",
+            "tipo": "Brut",
+            "uva": "",
+            "preco": 35,
+            "unidades": 6,
+            "imagem": "./img/garibaldiVeroBrut.jpeg"
         }
-        //,
-//
-        // {
-        //     "classe": "cerveja",
-        //     "titulo": "Pack de Corona",
-        //     "tipo": "Cerveja",
-        //     "uva": "",
-        //     "preco": 55,
-        //     "unidades": 0,
-        //     "imagem": "./img/pack_corona.webp"
-        // },
         // {
         //     "classe": "vinho",
         //     "titulo": "Chac Chac - Branco",
